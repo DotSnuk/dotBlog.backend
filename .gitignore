@@ -1,0 +1,6 @@
+.prettierrc
+/node_modules
+.env
+.env.*
+
+/generated/prisma
