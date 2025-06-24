@@ -43,5 +43,6 @@ model Comment {
   userId    Int
   Post      Post     @relation(fields: [postId], references: [id])
   postId    Int
+  content   String
   createdAt DateTime @default(now())
 }
